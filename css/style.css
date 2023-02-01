@@ -722,7 +722,7 @@ main section {
 #first-cta .cta-container .wrapper a{
 
     max-height: 250px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #first-cta .wrapper a {
