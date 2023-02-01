@@ -1196,7 +1196,7 @@ footer .container .ft-item ul li {
         position: static;
         margin-left: 20px;
     }
-    .details-container::-webkit-scrollbar {
+    .details-container  .wrapper .inst-details::-webkit-scrollbar {
     width: 0.3rem;
 }
 
