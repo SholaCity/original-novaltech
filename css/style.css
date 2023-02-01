@@ -718,6 +718,20 @@ main section {
     transform: rotate(-45deg) translateY(0px) translateX(-3px);
 }
 
+#first-cta .cta-container .fa-brands {
+    color: var(--white);
+    padding: 0.8rem;
+    border-radius: var(--radius1000);
+    font-size: 3rem;
+    text-shadow: 0px 1px ;
+    box-shadow: 2px 2px aliceblue;
+}
+#first-cta .cta-container .wrapper a{
+    width: 30%;
+    max-height: 250px;
+    justify-content: space-between;
+}
+
 #first-cta .wrapper a {
     width: 30%;
     max-height: 50%;
