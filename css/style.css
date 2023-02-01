@@ -22,7 +22,7 @@ font-family: 'Montserrat', sans-serif; */
     /* ==== border width ==== */
     --border300: 3px;
     /* ==== border radius ==== */
-    --radius1000: 5px;
+    --radius1000: 7px;
     --radiuspill: 200px;
     /* ==== background blur  ==== */
     --blur300: blur(8px);
@@ -641,14 +641,7 @@ main section {
     background: none;
     z-index: 99999;
 }
-#first-cta .cta-container .fa {
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
-    font-size: 3em;
-    text-shadow: 0px 1px #2b90e7;
-    box-shadow: 2px 2px aliceblue;
-}
+
 
 .service-text .details-container.active-details {
     display: flex;
@@ -718,16 +711,16 @@ main section {
     transform: rotate(-45deg) translateY(0px) translateX(-3px);
 }
 
-#first-cta .cta-container .fa-brands {
+#first-cta .cta-container .fa-cta {
     color: var(--white);
-    padding: 0.8rem;
+    padding: 1.1rem;
     border-radius: var(--radius1000);
     font-size: 3rem;
     text-shadow: 0px 1px ;
     box-shadow: 2px 2px aliceblue;
 }
 #first-cta .cta-container .wrapper a{
-    width: 30%;
+
     max-height: 250px;
     justify-content: space-between;
 }
